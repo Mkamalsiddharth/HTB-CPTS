@@ -242,7 +242,7 @@ Furthermore, if the webserver goes down for any reason, all hosted web applicati
 
 This model separates the database onto its own database server and allows the web applications' hosting server to access the database server to store and retrieve data. It can be seen as many-servers to one-database and one-server to one-database, as long as the database is separated on its own database server.
 
-![[many-server-many-db-arch.png]]
+![many-server-many-db-arch.png](https://raw.githubusercontent.com/Mkamalsiddharth/HTB-CPTS/main/HTB%20CPTS%20LEARNING%20PATH%20-%202023/%5B%40CyberBankSa%5D%20-%20Academy/%5B%40CyberBankSa%5D%20-%2001.%20Pre-Engagement/06.%20Introduction%20to%20Web%20Applications/images/many-server-one-db-arch.png)
 
 This model can allow several web applications to access a single database to have access to the same data without syncing the data between them. The web applications can be replicates of one main application (i.e., primary/backup), or they can be separate web applications that share common data.
 
